@@ -39,7 +39,7 @@ def fetch_transactions(league_id, week):
         print(f"Failed to fetch transactions for week {week}. Status code: {response.status_code}")
 
 # Inputs for the function
-league_id = "918205115247595520"
+league_id = ""
 week = 1  # The week for which you want to fetch transactions
 
 # Fetching and saving the transactions to a CSV file
