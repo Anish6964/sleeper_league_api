@@ -35,7 +35,7 @@ def fetch_users_in_league(league_id):
         print("Failed to fetch data. Please check the league ID and try again.")
 
 # Example league ID (Replace this with your league's ID)
-league_id_example = "918205115247595520"
+league_id_example = ""
 
 # Fetching and saving the users data to a CSV file
 fetch_users_in_league(league_id_example)
